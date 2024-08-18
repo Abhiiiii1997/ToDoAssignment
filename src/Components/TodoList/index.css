@@ -1,0 +1,21 @@
+/* TodoList.css */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.empty-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.empty-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.empty-container p {
+  color: #777;
+  font-size: 1.2em;
+}

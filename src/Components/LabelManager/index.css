@@ -1,0 +1,101 @@
+/* LabelManager.css */
+
+/* Container for the entire label manager section */
+.label-manager-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header for the label management section */
+.label-manager-container h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Form styling */
+.label-manager-container form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Input for adding new labels */
+.label-manager-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+/* Button for adding new labels */
+.label-manager-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.label-manager-container button:hover {
+  background-color: #0056b3;
+}
+
+/* List of labels */
+.label-manager-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Individual label styling */
+.label-manager-container ul li {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for labels */
+.label-manager-container ul li:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+/* Responsive adjustments for labels */
+@media (min-width: 600px) {
+  .label-manager-container ul li {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+.label-item {
+  display: inline-block;
+  background-color: #c300ff;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 15px;
+  font-size: 0.9em;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.label-item:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
